@@ -1,0 +1,145 @@
+h1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #181D31;
+    padding-bottom: 5%;
+}
+
+h3 {
+    font-size: 2.5rem;
+    color: #181D31;
+    padding-bottom: 5%;
+}
+
+hr {width: 5%;
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color: #678983;
+    margin: 60px auto 60px auto;}
+/* Title section */
+
+#title {
+    background-image: url("https://cdn.shopify.com/s/files/1/0310/2988/7114/articles/nursery_ideas_1200x.jpg?v=1639090532");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+#title:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
+    z-index: 1;
+    }
+
+.container-fluid {
+    padding: 2% 15% 0 15%;
+}
+
+body {
+    font-family: "montserrat";
+}
+
+.navbar-brand {
+    color: gray ;
+    /* font-size: 1.5rem; */
+}
+
+.intro {
+    text-align: center;
+    margin: 7% 0 0 0;
+    color: white;
+    position: relative;
+    z-index: 2;
+
+}
+.intro-text{
+    font-size: 4rem;
+    font-family: sacramento;
+
+}
+
+.navbar {
+    z-index: 2;
+    font-size: 1.1rem;
+}
+
+
+.nav-item{
+    padding-left: 20px;
+}
+
+i {
+    padding-left: 10px;
+    padding-right: 10px;
+  
+}
+
+.rotate {
+    transform: rotate(25deg);
+}
+/* work */
+
+#work {
+    padding: 7% 20% 2% 20%;
+    text-align: center;
+}
+
+.work-brush {
+    padding-left: 2%;
+}
+
+.work-image {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.work-text { 
+    padding: 10% 1% 0 2%;
+}
+
+.paragraph {
+    font-size: 1.2rem;
+    text-align: left;
+    padding-top: 15%;
+    line-height: 2rem;
+}
+
+#about-me {
+    padding: 0% 20% 2% 20%;
+    text-align: center;
+}
+  
+.about-me-image
+{
+  width: 80%;
+  border-radius: 100%;
+}
+
+/* contact */
+
+#contact {
+    padding: 0% 20% 2% 20%;
+    text-align: center;
+}
+
+/* footer */
+
+#footer {
+    background-color:gray;
+    position: relative;
+    text-align: center;
+    padding: 5% 0 3% 0;
+    
+    color: white;
+}
